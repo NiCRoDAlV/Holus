@@ -7,7 +7,7 @@
           <h2>{{.Title}}</h2>
         </div>
         <div class="post-meta">
-          <p><span>{{ .PublishDate.Format "January 2, 2006" }}</span> in 
+          <p><span>{{ .PublishDate.Format "Junio 2, 2006" }}</span> en 
             {{ range (.GetTerms "tags") }}
               <a class="tags" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
             {{ end }}
